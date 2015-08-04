@@ -19,4 +19,5 @@ public class CritereLieu
 	private Annonce annonce;
 
 	private int numDepartement;
+	
 }

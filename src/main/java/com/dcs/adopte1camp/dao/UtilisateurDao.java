@@ -1,11 +1,15 @@
 package com.dcs.adopte1camp.dao;
 
+import java.util.List;
+
 import org.springframework.data.repository.CrudRepository;
 
 import com.dcs.adopte1camp.entity.Utilisateur;
 
 public interface UtilisateurDao extends CrudRepository<Utilisateur, Long> {
 	
-	Utilisateur findByMail(String mail);
+	public Utilisateur findByMail(String mail);
 
+	public Utilisateur findByMailAndPassword(String mail, String password);
+	
 }

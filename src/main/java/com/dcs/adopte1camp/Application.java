@@ -12,15 +12,8 @@ public class Application{
 
     public static void main(String[] args) throws Exception {
         SpringApplication.run(Application.class, args);
-    }
-    
-    
-    @Autowired
-    private UtilisateurDao utilisateurDao;
-    
-    public void run()
-    {
-    	utilisateurDao.save(new Utilisateur("toto", "test"));
+        
+        
     }
 
 }

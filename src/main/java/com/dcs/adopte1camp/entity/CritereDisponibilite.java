@@ -42,18 +42,18 @@ public class CritereDisponibilite {
 	private Integer nombreGarçonsDisponibleMax;
 	private Integer nombreGarçonsDisponibleMin;
 	
-	private Integer nombreAnimateursQualifiesSouhaite;
-	private Integer nombreAnimateursStagiaireSouhaite;
-	private Integer nombreAnimateursNonQualifiesSouhaite;
+	private Integer nombreAnimateursQualifiesEnPlusNecessaire;
+	private Integer nombreAnimateursStagiaireEnPlusNecessaire;
+	private Integer nombreAnimateursNonQualifiesEnPlusNecessaire;
 	
-	private Integer nombreFillesSouhaiteMax;
-	private Integer nombreFillesSouhaiteMin;
+	private Integer nombreFillesSouhaiteEnPlusMax;
+	private Integer nombreFillesSouhaiteEnPlusMin;
 	
-	private Integer nombreGarçonsSouhaiteMax;
-	private Integer nombreGarçonsSouhaiteMin;
+	private Integer nombreGarçonsSouhaiteEnPlusMax;
+	private Integer nombreGarçonsSouhaitEnPlusMin;
 	
-	private Integer nombreJeunesSouhaiteMax;
-	private Integer nombreJeunesSouhaiteMin;
+	private Integer nombreJeunesSouhaiteEnPlusMax;
+	private Integer nombreJeunesSouhaiteEnPlusMin;
 
 	
 }

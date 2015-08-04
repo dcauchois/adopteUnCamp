@@ -35,6 +35,10 @@ public class Annonce {
 	@Column(length=500)
 	private String description;
 	
+	private Date creationDate;
+	
+	private Date modificationDate;
+	
 	private Date dateExpiration;
 	
 	@ManyToOne
@@ -51,4 +55,8 @@ public class Annonce {
 	
 	@OneToMany(mappedBy="annonce")
 	private Collection<CritereDisponibilite> criteresDisponibilite;	
+	
+	@OneToMany
+	@Column(name="annonce_correspondante")
+	private Collection<Annonce> annoncesCorrespondantes;
 }
