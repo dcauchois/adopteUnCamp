@@ -1,4 +1,4 @@
-package com.dcs.adopte1camp.enumeration;
+package adopte1camp.enumeration;
 
 public enum StatutAnnonce {
 	

@@ -1,4 +1,4 @@
-package com.dcs.adopte1camp.entity;
+package adopte1camp.entity;
 
 import java.util.Date;
 

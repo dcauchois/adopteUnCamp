@@ -1,12 +1,12 @@
-package com.dcs.adopte1camp.controller;
+package adopte1camp.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.dcs.adopte1camp.dao.UtilisateurDao;
-import com.dcs.adopte1camp.entity.Utilisateur;
+import adopte1camp.dao.UtilisateurDao;
+import adopte1camp.entity.Utilisateur;
 
 @RestController
 public class HelloController 

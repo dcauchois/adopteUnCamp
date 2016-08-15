@@ -1,4 +1,4 @@
-package com.dcs.adopte1camp.entity;
+package adopte1camp.entity;
 
 import java.util.Collection;
 import java.util.Date;
@@ -15,8 +15,8 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.validation.constraints.NotNull;
 
-import com.dcs.adopte1camp.enumeration.StatutAnnonce;
-import com.dcs.adopte1camp.enumeration.TrancheAge;
+import adopte1camp.enumeration.StatutAnnonce;
+import adopte1camp.enumeration.TrancheAge;
 
 
 @Entity
