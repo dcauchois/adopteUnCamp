@@ -1,11 +1,11 @@
-package com.dcs.adopte1camp.service.impl;
+package adopte1camp.service.impl;
 
 import java.util.List;
 
-import com.dcs.adopte1camp.entity.Annonce;
-import com.dcs.adopte1camp.entity.Utilisateur;
-import com.dcs.adopte1camp.enumeration.StatutAnnonce;
-import com.dcs.adopte1camp.service.AnnonceService;
+import adopte1camp.entity.Annonce;
+import adopte1camp.entity.Utilisateur;
+import adopte1camp.enumeration.StatutAnnonce;
+import adopte1camp.service.AnnonceService;
 
 public class AnnonceServiceImpl implements AnnonceService {
 

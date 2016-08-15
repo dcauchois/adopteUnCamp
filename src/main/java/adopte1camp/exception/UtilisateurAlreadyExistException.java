@@ -1,4 +1,4 @@
-package com.dcs.adopte1camp.exception;
+package adopte1camp.exception;
 
 public class UtilisateurAlreadyExistException extends Exception {
 	

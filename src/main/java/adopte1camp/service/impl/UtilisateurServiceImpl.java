@@ -1,4 +1,4 @@
-package com.dcs.adopte1camp.service.impl;
+package adopte1camp.service.impl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,10 +7,10 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.dcs.adopte1camp.dao.UtilisateurDao;
-import com.dcs.adopte1camp.entity.Utilisateur;
-import com.dcs.adopte1camp.exception.UtilisateurNotFoundException;
-import com.dcs.adopte1camp.service.UtilisateurService;
+import adopte1camp.dao.UtilisateurDao;
+import adopte1camp.entity.Utilisateur;
+import adopte1camp.exception.UtilisateurNotFoundException;
+import adopte1camp.service.UtilisateurService;
 
 
 public class UtilisateurServiceImpl implements UtilisateurService {

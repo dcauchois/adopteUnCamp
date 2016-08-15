@@ -1,9 +1,9 @@
-package com.dcs.adopte1camp.service;
+package adopte1camp.service;
 
 import java.util.List;
 
-import com.dcs.adopte1camp.entity.Utilisateur;
-import com.dcs.adopte1camp.exception.UtilisateurNotFoundException;
+import adopte1camp.entity.Utilisateur;
+import adopte1camp.exception.UtilisateurNotFoundException;
 
 public interface UtilisateurService 
 {
